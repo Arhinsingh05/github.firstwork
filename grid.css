@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 100px;
+    column-gap: 20px;
+    row-gap: 30px;
+    height: 500px;
+    align-items:center;
+
+}
+
+body{
+    background-color: rgb(238, 234, 2);
+}
+
+div{
+    background-color: rgb(254, 167, 211);
+    padding: 10px;
+    border: solid rgb(149, 255, 10) 1px; 
+
+    }
